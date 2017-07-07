@@ -1,0 +1,24 @@
+.app {
+    display: flex;
+    flex-flow: row wrap;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.app__header {
+    color: steelblue;
+    flex-basis: 100%;
+    font-weight: 500;
+}
+
+.errors {
+    background-color: red;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+h2 {
+    font-weight: lighter;
+}

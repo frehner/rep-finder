@@ -1,0 +1,36 @@
+.rep-list {
+    flex: 3 0 auto;
+    transition: all 500ms;
+    transform: translateY(0);
+}
+
+.rep-list--empty {
+    transform: translateY(-20px);
+}
+
+.rep-list__header--blue {
+    color: steelblue;
+}
+
+.rep-list__rep {
+    cursor: pointer;
+}
+
+.rep-list__row--header {
+    background-color: #efefef;
+    text-align: left;
+}
+
+.rep-list__row--header th {
+    font-weight: 300;
+}
+
+.rep-list__row td, th {
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+}
+
+.rep-list__table {
+    border-spacing: 0;
+    width: 100%;
+}

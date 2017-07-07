@@ -1,0 +1,16 @@
+.rep-info {
+    flex: 2 0 35%;
+    padding: 0 15px;
+    transform: translateX(0);
+    transition: all 500ms;
+}
+
+.rep-info--empty {
+    transform: translateX(20px);
+}
+
+.rep-info__item {
+    background-color: #efefef;
+    margin: 15px 0;
+    padding: 10px;
+}

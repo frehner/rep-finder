@@ -1,0 +1,17 @@
+.selectors {
+    flex-basis: 100%;
+}
+
+.selectors__select {
+    height: 24px;
+    margin: 0 20px 0 5px;
+}
+
+.selectors__submit {
+    background-color: steelblue;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 5px 20px;
+}
